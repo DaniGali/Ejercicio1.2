@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ejercicio1.2</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="topping">TOPPING</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="order">ORDER</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="and">and</string>
+    <string name="you_ordered">, You ordererd</string>
+    <string name="coffee">" coffee"</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="your_email_is">Your email is</string>
+    <string name="toast">Correct your order</string>
+    <string name="message">Order Confirmation</string>
+    <string name="is_it_correct">Is it coorect?</string>
+</resources>

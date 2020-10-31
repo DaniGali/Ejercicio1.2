@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio1.2</string>
+    <string name="enter_your_name">Inserta tu nombre</string>
+    <string name="topping">TOPPING</string>
+    <string name="whipped_cream">Nata montada</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="quantity">Cantidad</string>
+    <string name="order">PEDIR</string>
+    <string name="enter_your_email">Inserta tu email</string>
+    <string name="and">y</string>
+    <string name="you_ordered">, Tu pediste</string>
+    <string name="coffee">" cafe"</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="your_email_is">Tu email es</string>
+    <string name="toast">Corrige tu pedido</string>
+    <string name="message">Confirma tu pedido</string>
+    <string name="is_it_correct">¿Es esto correcto?</string>
+</resources>
