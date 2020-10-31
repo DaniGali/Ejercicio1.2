@@ -13,7 +13,7 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="your_email_is">Your email is</string>
-    <string name="toast">Correct your order</string>
-    <string name="message">Order Confirmation</string>
+    <string name="correct">Correct your order</string>
+    <string name="mensaje">Order Confirmation</string>
     <string name="is_it_correct">Is it coorect?</string>
 </resources>

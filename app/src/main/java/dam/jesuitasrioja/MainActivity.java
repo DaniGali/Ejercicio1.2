@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == TEXT_REQUEST) {
             if (resultCode == RESULT_CANCELED) {
-                String toast = data.getStringExtra("Toast");
-                Toast toast2 = Toast.makeText(this, toast, Toast.LENGTH_SHORT);
-                toast2.show();
+                String cancelar = data.getStringExtra("Toast");
+                Toast toast = Toast.makeText(this, cancelar, Toast.LENGTH_SHORT);
+                toast.show();
             }
             if (resultCode == RESULT_OK) {
                 startActivity(data);
@@ -75,12 +75,12 @@ public class MainActivity extends AppCompatActivity {
         double precioTotal = precioUnidad * cantidad;
         String texto_final = texto_cantidad + "\n" + precioTotal;
 
-        EditText correo = findViewById(R.id.editText_email);
-        String correo2 = correo.getText().toString();
+        EditText email = findViewById(R.id.editText_email);
+        String correo = email.getText().toString();
 
 
         Intent intent = new Intent(this, ShowToast.class);
-        intent.putExtra("correo", correo2);
+        intent.putExtra("correo", correo);
         intent.putExtra("texto", texto_final);
         startActivityForResult(intent, TEXT_REQUEST);
     }

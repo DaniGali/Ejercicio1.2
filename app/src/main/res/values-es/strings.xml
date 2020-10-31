@@ -14,7 +14,7 @@
     <string name="yes">Si</string>
     <string name="no">No</string>
     <string name="your_email_is">Tu email es</string>
-    <string name="toast">Corrige tu pedido</string>
-    <string name="message">Confirma tu pedido</string>
+    <string name="correct">Corrige tu pedido</string>
+    <string name="mensaje">Confirma tu pedido</string>
     <string name="is_it_correct">¿Es esto correcto?</string>
 </resources>
