@@ -31,8 +31,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/boton_si"
         android:layout_marginBottom="@dimen/bton_abajo"
-        android:text="@string/yes"
+        android:background="#83CD2C"
         android:onClick="enviarCorreo"
+        android:text="@string/yes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -42,8 +43,10 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/boton_no"
         android:layout_marginBottom="@dimen/bton_abajo"
-        android:text="@string/no"
+        android:background="#F44336"
         android:onClick="cancelar"
+        android:text="@string/no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -27,19 +27,18 @@ public class ShowToast extends AppCompatActivity {
 
     public void enviarCorreo(View view) {
         Intent intent = getIntent();
-
         String texto = intent.getStringExtra("texto");
         String[] correo = {intent.getStringExtra("correo")};
         String mensaje = getString(R.string.mensaje);
-        Intent sendIntent = new Intent();
 
-        sendIntent.setAction(Intent.ACTION_SENDTO);
-        sendIntent.setData(Uri.parse("mail to:"));
-        sendIntent.putExtra(Intent.EXTRA_TEXT, texto);
-        sendIntent.putExtra(Intent.EXTRA_EMAIL, correo);
-        sendIntent.putExtra(Intent.EXTRA_SUBJECT, mensaje);
+        Intent intent2 = new Intent();
+        intent2.setAction(Intent.ACTION_SENDTO);
+        intent2.setData(Uri.parse("mail to:"));
+        intent2.putExtra(Intent.EXTRA_TEXT, texto);
+        intent2.putExtra(Intent.EXTRA_EMAIL, correo);
+        intent2.putExtra(Intent.EXTRA_SUBJECT, mensaje);
 
-        setResult(RESULT_OK, sendIntent);
+        setResult(RESULT_OK, intent2);
         finish();
     }
 
